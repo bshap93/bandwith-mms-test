@@ -1,0 +1,22 @@
+#lang plait
+
+(define (is-odd? x)
+  (if (zero? x)
+      #f
+      (is-even? (- x 1))))
+
+
+(define (is-even? x)
+  (if (zero? x)
+      #t
+      (is-odd? (- x 1))))
+
+(define groceries : (Listof String) '("milk" "cookies"))
+
+(define (starts-milk? [items : (Listof String)]) : Boolean
+  (equal? (first items) "milk"))
+
+(local [(define pi-ish 3)
+        (define (approx-circle-area r)
+          (* pi-ish (* r r)))]
+  (approx-circle-area 2))
