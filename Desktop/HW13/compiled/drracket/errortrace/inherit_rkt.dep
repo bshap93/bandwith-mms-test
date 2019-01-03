@@ -1,0 +1,1 @@
+("7.0" ("33478b2ca0aba3c14d5f68ba811d8967ab5f93c0" . "36c45b0486b997e3278182eebf9d2bf927191d2e") #"C:\\Users\\Ben\\Desktop\\HW13\\class.rkt" (collects #"plait" #"main.rkt") (collects #"racket" #"base.rkt") (collects #"racket" #"runtime-config.rkt") (collects #"racket" #"runtime-path.rkt"))
